@@ -1,0 +1,11 @@
+#Disable Suspend and Hibernation in Linux
+
+#To prevent your Linux system from suspending or going into hibernation,
+#you need to disable the following systemd targets:
+
+$ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
+
+#Verify if the changes have been effected using the command:
+
+$ sudo systemctl status sleep.target suspend.target hibernate.target hybrid-sleep.target
