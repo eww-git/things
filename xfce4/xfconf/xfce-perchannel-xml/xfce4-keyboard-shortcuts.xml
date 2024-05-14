@@ -36,11 +36,16 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter -w"/>
+      <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder -c">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
+      <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
       <property name="Print" type="string" value="xfce4-screenshooter"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;s" type="string" value="orca"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
@@ -52,12 +57,12 @@
       <property name="HomePage" type="string" value="exo-open --launch WebBrowser"/>
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Super&gt;Return" type="string" value="xfce4-terminal"/>
-      <property name="&lt;Primary&gt;Page_Down" type="string" value="amixer -D pulse set Master 5%-"/>
-      <property name="&lt;Primary&gt;Page_Up" type="string" value="amixer -D pulse set Master 5%+"/>
+      <property name="&lt;Primary&gt;Page_Up" type="string" value="amixer -D pulse sset Master 5%+"/>
+      <property name="&lt;Primary&gt;Page_Down" type="string" value="amixer -D pulse sset Master 5%-"/>
       <property name="Pause" type="string" value="amixer -D pulse set Master toggle"/>
-      <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Super&gt;b" type="string" value="exo-open --launch WebBrowser"/>
+      <property name="&lt;Super&gt;Return" type="string" value="exo-open --launch TerminalEmulator"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;q" type="string" value="xfce4-session-logout"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -155,7 +160,6 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;Left" type="string" value="left_workspace_key"/>
       <property name="&lt;Alt&gt;F12" type="string" value="above_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_key"/>
-      <property name="&lt;Primary&gt;F5" type="string" value="workspace_5_key"/>
       <property name="&lt;Alt&gt;F8" type="string" value="resize_window_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;KP_7" type="string" value="move_window_workspace_7_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Up" type="string" value="up_workspace_key"/>
@@ -177,7 +181,6 @@
       <property name="&lt;Super&gt;Down" type="string" value="tile_down_key"/>
       <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
       <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;q" type="string" value="close_window_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;w" type="string" value="hide_window_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;5" type="string" value="move_window_workspace_5_key"/>
       <property name="&lt;Super&gt;Home" type="string" value="tile_up_left_key"/>
@@ -185,6 +188,8 @@
       <property name="&lt;Super&gt;End" type="string" value="tile_down_left_key"/>
       <property name="&lt;Super&gt;Page_Down" type="string" value="tile_down_right_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;f" type="string" value="maximize_window_key"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;c" type="string" value="close_window_key"/>
+      <property name="&lt;Alt&gt;5" type="string" value="workspace_5_key"/>
     </property>
   </property>
   <property name="providers" type="array">
