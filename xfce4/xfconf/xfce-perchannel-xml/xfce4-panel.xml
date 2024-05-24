@@ -10,7 +10,7 @@
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
-      <property name="size" type="uint" value="22"/>
+      <property name="size" type="uint" value="24"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="15"/>
         <value type="int" value="2"/>
@@ -87,7 +87,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance101326;chromium.instance108420;chromium.instance122554;chromium.instance205701;chromium.instance208788;chromium.instance228663;chromium.instance4927;chromium.instance67647;chromium.instance98129;firefox.instance16028;firefox.instance211890;firefox.instance24430;firefox.instance283931;firefox.instance35019;firefox.instance35173;firefox.instance3714;firefox.instance417344;firefox.instance459576;firefox.instance4790;firefox.instance4913;firefox.instance9580"/>
+      <property name="mpris-players" type="string" value="chromium.instance101326;chromium.instance108420;chromium.instance122554;chromium.instance205701;chromium.instance208788;chromium.instance228663;chromium.instance4927;chromium.instance67647;chromium.instance98129;firefox.instance10083;firefox.instance10821;firefox.instance11341;firefox.instance16028;firefox.instance211890;firefox.instance24430;firefox.instance283931;firefox.instance35019;firefox.instance3511;firefox.instance35173;firefox.instance3714;firefox.instance3746;firefox.instance3951;firefox.instance417344;firefox.instance459576;firefox.instance4790;firefox.instance480464;firefox.instance4848;firefox.instance4860;firefox.instance4913;firefox.instance4922;firefox.instance4946;firefox.instance5290;firefox.instance6407;firefox.instance6425;firefox.instance9580"/>
       <property name="enable-wnck" type="bool" value="false"/>
       <property name="blacklisted-players" type="string" value=""/>
     </property>

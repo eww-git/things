@@ -10,6 +10,9 @@
       <value type="string" value="xfce4-settings-helper"/>
       <value type="string" value="xfce4-xkb-plugin"/>
     </property>
+    <property name="denied-critical-notifications" type="array">
+      <value type="string" value="Xfce volume control"/>
+    </property>
   </property>
   <property name="primary-monitor" type="uint" value="0"/>
   <property name="notify-location" type="uint" value="2"/>
@@ -21,4 +24,5 @@
   <property name="do-slideout" type="bool" value="false"/>
   <property name="do-fadeout" type="bool" value="true"/>
   <property name="initial-opacity" type="double" value="0.80000000000000004"/>
+  <property name="do-not-disturb" type="bool" value="false"/>
 </channel>
