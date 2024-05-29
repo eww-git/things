@@ -1,0 +1,2 @@
+## Rather than using the command by itself, we’ll add switches to use OpenGL instead of the old X Render backend, which will give the desired performance.
+compton --vsync opengl-swc --backend glx
