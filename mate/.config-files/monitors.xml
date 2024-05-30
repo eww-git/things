@@ -1,0 +1,24 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="HDMI-A-0">
+          <vendor>SAM</vendor>
+          <product>0x707d</product>
+          <serial>0x4358524e</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="eDP">
+          <vendor>LGD</vendor>
+          <product>0x05d8</product>
+          <serial>0x00000000</serial>
+      </output>
+  </configuration>
+</monitors>
