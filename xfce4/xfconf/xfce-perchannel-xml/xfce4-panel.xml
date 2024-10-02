@@ -97,7 +97,7 @@
     <property name="plugin-3" type="string" value="notification-plugin"/>
     <property name="plugin-5" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance72110"/>
+      <property name="mpris-players" type="string" value="firefox.instance14029;firefox.instance72110"/>
     </property>
     <property name="plugin-6" type="string" value="xkb">
       <property name="display-type" type="uint" value="2"/>
@@ -106,6 +106,7 @@
     </property>
     <property name="plugin-8" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="wi-fi network connection “n/a” active: n/a (88%)"/>
       </property>
       <property name="icon-size" type="int" value="0"/>
