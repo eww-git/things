@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Scalling
-GenericName=Scalling
-Comment=set scalling UI
-Exec=/home/eww/.config/autostart/display-script.sh
-Terminal=false
-Type=Application
-X-GNOME-Autostart-enabled=true
