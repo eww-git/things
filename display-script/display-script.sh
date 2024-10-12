@@ -1,6 +1,6 @@
 #!/bin/bash
 
-exec xrandr xrandr --output HDMI-A-0 --set TearFree auto --set vrr_capable 1 --scale 1.25x1.25 --mode 1920x1080 --rate 60
+exec xrandr xrandr --output HDMI-A-0 --set TearFree auto --scale 1.25x1.25 --mode 1920x1080 --rate 60
 ##xrandr --output eDP --scale 1.2x1.2 --mode 1920x1080 --rate 59.93
 ### TearFree [auto,on,off] vrr_capable [0,1]
 
