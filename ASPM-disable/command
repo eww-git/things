@@ -1,0 +1,9 @@
+##Put in /etc/default/grub
+  
+#disables
+$ pcie_aspm=off 
+
+#enables
+$ pcie_aspm=force
+
+$ sudo update-grub
