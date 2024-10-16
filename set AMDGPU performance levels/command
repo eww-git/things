@@ -1,0 +1,13 @@
+##Startup on boot following ;
+
+/etc/udev/rules.d/30-amdgpu-low-power.rules 
+------------------------------------------------
+SUBSYSTEM=="pci", DRIVER=="amdgpu", ATTR{power_dpm_force_performance_level}="high"
+
+# auto: dynamically select the optimal power profile for current conditions in the driver.
+# low: clocks are forced to the lowest power state.
+# high: clocks are forced to the highest power state.
+
+#To set the AMDGPU device to use a performance level(one time), the following command can be executed: 
+$ echo "high" > /sys/class/drm/card0/device/power_dpm_force_performance_level
+  
