@@ -1,9 +1,12 @@
 ##Put in /etc/default/grub
   
-#disables
+#disables add
 $ pcie_aspm=off 
 
-#enables
-$ pcie_aspm=force
+#enables add
+$ pcie_aspm=force pcie_aspm.policy=performance
 
 $ sudo update-grub
+
+#check
+$ sudo dmesg | grep ASPM
