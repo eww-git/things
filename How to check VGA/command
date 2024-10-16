@@ -1,0 +1,5 @@
+$ lspci | grep -i --color VGA
+$ lspci | grep -i --color 'vga\|3d\|2d'
+$ lspci -v | less
+$ lspci -k
+  
