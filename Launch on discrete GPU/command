@@ -1,2 +1,4 @@
+##Install switcheroo-control and start/enable switcheroo-control.service.
+
 $ systemctl enable switcheroo-control.service
 $ systemctl start switcheroo-control.service
