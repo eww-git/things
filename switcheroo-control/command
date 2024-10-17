@@ -1,0 +1,2 @@
+$ sudo systemctl enable switcheroo-control
+$ sudo systemctl start switcheroo-control
