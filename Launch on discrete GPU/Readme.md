@@ -3,13 +3,8 @@ Create the following Xorg configuration:
 /etc/X11/xorg.conf.d/10-gpu.conf
 ----------------------------------------
 
-Section "ServerLayout"
-    Identifier "layout"
-    Screen 0 "amdgpu"
-EndSection
-
 Section "Device"
-    Identifier  "amdgpu"
+    Identifier  "Screen0"
     Driver      "amdgpu"
     BusID       "PCI:1:0:0"
 EndSection
