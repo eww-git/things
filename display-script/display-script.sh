@@ -1,8 +1,11 @@
 #!/bin/bash
-
 xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
 xrandr --addmode HDMI-A-0 1920x1080_60.00
 xrandr --output HDMI-A-0 --set vrr_capable 1 --scale 1.35x1.35 --mode 1920x1080_60.00
+
+#xrandr --newmode "1920x1080_75.00"  220.75  1920 2064 2264 2608  1080 1083 1088 1130 -hsync +vsync
+#xrandr --addmode HDMI-A-0 1920x1080_75.00
+#xrandr --output HDMI-A-0 --scale 1.35x1.35 --set vrr_capable 1 --mode 1920x1080_75.00
 
 #exec xrandr --output HDMI-A-0 --set TearFree auto --scale 1.35x1.35 --mode 1920x1080 --rate 60
 #xrandr --output HDMI-A-0 --set vrr_capable 1 --scale 1.35x1.35 --mode 1920x1080 --rate 60 --dpi 92
