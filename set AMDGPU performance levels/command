@@ -4,12 +4,21 @@
 ------------------------------------------------
 SUBSYSTEM=="pci", DRIVER=="amdgpu", ATTR{power_dpm_force_performance_level}="high"
 
-# auto: dynamically select the optimal power profile for current conditions in the driver.
-# low: clocks are forced to the lowest power state.
-# high: clocks are forced to the highest power state.
+  auto: dynamically select the optimal power profile for current conditions in the driver.
+  low: clocks are forced to the lowest power state.
+  high: clocks are forced to the highest power state.
 
 #To set the AMDGPU device to use a performance level(one time), the following command can be executed: 
 $ echo "high" > /sys/class/drm/card0/device/power_dpm_force_performance_level
 
 #TO check
 $ cat /sys/class/drm/card0/device/power_dpm_force_performance_level
+
+To make it persistent, you may create a udev rule:
+/etc/udev/rules.d/30-amdgpu-pm.rules
+----
+KERNEL=="card0", SUBSYSTEM=="drm", DRIVERS=="amdgpu", ATTR{device/power_dpm_force_performance_level}="high"
+
+To determine the KERNEL name execute:
+$ find /sys/class/drm/ -regextype awk -regex '.+/card[0-9]+' -printf '%f\n'
+
