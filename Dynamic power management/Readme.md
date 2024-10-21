@@ -9,4 +9,4 @@ There are 3 operation modes to choose from:
 They can be changed via sysfs:
 # echo battery > /sys/class/drm/card0/device/power_dpm_state
 
-If you want to disable it, add the parameter radeon.dpm=0 to the kernel parameters. 
+If you want to disable it, add the parameter radeon.dpm=0 or amdgpu.dpm=0 to the kernel parameters. 
