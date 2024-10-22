@@ -51,8 +51,6 @@
       <property name="HomePage" type="string" value="exo-open --launch WebBrowser"/>
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Primary&gt;Page_Up" type="string" value="amixer -D pulse sset Master 5%+"/>
-      <property name="&lt;Primary&gt;Page_Down" type="string" value="amixer -D pulse sset Master 5%-"/>
       <property name="Pause" type="string" value="amixer -D pulse set Master toggle"/>
       <property name="&lt;Super&gt;b" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Super&gt;Return" type="string" value="exo-open --launch TerminalEmulator"/>
@@ -60,6 +58,8 @@
       <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
+      <property name="&lt;Primary&gt;Page_Up" type="string" value="amixer -D pulse sset Master 3%+"/>
+      <property name="&lt;Primary&gt;Page_Down" type="string" value="amixer -D pulse sset Master 3%-"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

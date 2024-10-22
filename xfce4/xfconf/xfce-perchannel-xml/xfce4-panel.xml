@@ -57,7 +57,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance_1_51;firefox.instance_1_64"/>
+      <property name="mpris-players" type="string" value="chromium.instance108522;chromium.instance38635;chromium.instance58508;chromium.instance9644;firefox.instance_1_50;firefox.instance_1_51;firefox.instance_1_56;firefox.instance_1_64"/>
       <property name="enable-wnck" type="bool" value="true"/>
       <property name="blacklisted-players" type="string" value="firefox.instance_1_64"/>
     </property>
