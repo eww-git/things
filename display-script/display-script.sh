@@ -17,4 +17,6 @@ xrandr --output HDMI-A-0 --scale 1.35x1.35 --set "content type" Game --set under
 
 ##panda
 ##xrandr --output eDP --mode 1920x1080 --rate 60 --output HDMI-A-0 --mode 1600x900 --scale 1.4x1.4 --rate 60 --right-of eDP
-xrandr --output eDP --set vrr_capable 1 --mode 1920x1080 --rate 60 --output HDMI-A-0 --set vrr_capable 1 --mode 1600x900 --scale 1.35x1.35 --rate 60 --right-of eDP
+xrandr --output eDP --set vrr_capable 1 --set underscan auto --mode 1920x1080 --rate 60 --output HDMI-A-0 --set "scaling mode" "Full aspect" \
+--set vrr_capable 1 --set underscan auto --mode 1600x900R --scale 1.35 --right-of eDP
+
