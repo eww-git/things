@@ -11,6 +11,10 @@
 # ===============
 #  - Change the GTK+ theme
 [org/gnome/desktop/interface]
+gtk-theme='Orchis-Dark-Compact-Nord'
+font-name='Quicksand Medium Regular 10'
+icon-theme='Tela-nord-dark'
+cursor-theme='Bibata-Original-Ice'
 # gtk-theme='Adwaita'
 #  - Use another background
 [org/gnome/desktop/background]
