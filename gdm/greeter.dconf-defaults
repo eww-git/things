@@ -24,10 +24,7 @@ cursor-theme='Bibata-Original-Ice'
 [org/gnome/desktop/background]
 # picture-options='none'
 # primary-color='#000000'
-[org/gnome/desktop/interface]
-font-name = 'Roboto 11'
-[org/gnome/desktop/interface]
-text-scalling-factor = '0.958490566'
+
 
 # Login manager options
 # =====================
